@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Veiwport" content="width=device-width,
+    initial-scale=1.0">
+    <meta charset="UFT-8">
+    <title>Snacks</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+ <!--Navbar-->
+    <nav>
+         <nav class="navbar-container"></nav>
+        <h2 class="logo">
+            <span class="PRIZZY">Prizzy's</span>
+            <span class="GOLDENBITE">GOLDEN BITE</span>
+        </h2>
+
+             <div class="menu-icon js-menu-toggle" aria-label="Togg navigation" role="button"
+            tabindex="0">
+                 <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+         <nav class="main-nav js-main-nav">
+          <ul>
+            <li><a href="index.html"><span class="HOME">Home</span></a></li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="snack.html">Snacks</a></li>
+            <li><a href="decoration.html">Event Decoration</a></li>
+            <li><a href="https://wa.me/2349024352168?text=Hello,%20I'd%20like%20to%20book%20a%20event%20decoration.">Booking</a></li>
+            <li><a href="https://wa.me/2349024352168?text=Hello,%20I'd%20like%20to%20make%20an%20order.">Order</a></li>
+        </ul>
+      </nav>
+    </nav>
+    <body>
+    <div class="Section">
+        <div class="Featured-section"
+        id="featured-apartments">
+        <h2>CHIN CHIN</h2>
+        <p>Crunchy, tasty and made with love,</p>
+        </div>
+         <div class="Apartments">
+            <div class="card">
+                <!--Snacks-->
+                <img src="contain2.png"class="product-image"
+                onclick="openLightbox(this.src)">
+            <h3>Classic Bite</h3>
+            <p>Small</p>
+            <span class="tit">₦1,500</span>    
+    </div>
+
+             <div class="card">
+                <!--Decoration-->
+                 <img src="contain.png"class="product-image"
+                onclick="openLightbox(this.src)">
+             <h3>Classic Bite</h3>
+            <p>Medium</p>
+            <span class="tit">₦3,500</span>
+    </div>
+
+      <div class="card">
+                <!--Decoration-->
+                 <img src="pack1.png"class="product-image"
+                onclick="openLightbox(this.src)">
+             <h3>Crunch Bite</h3>
+            <p>Medium</p>
+            <span class="tit">₦2,500</span>
+    </div>
+
+      <div class="card">
+                <!--Decoration-->
+                 <img src="pack2.png"class="product-image"
+                onclick="openLightbox(this.src)">
+             <h3>Super Crunchy</h3>
+            <p>Family Small Size</p>
+            <span class="tit">₦2,500</span>
+    </div>
+
+      <div class="card">
+                <!--Decoration-->
+                 <img src="pack5.png"class="product-image"
+                onclick="openLightbox(this.src)">
+             <h3>Super Bite</h3>
+            <p>Family Medium Size</p>
+            <span class="tit">₦3,500</span>
+    </div>
+
+      <div class="card">
+                <!--Decoration-->
+                 <img src="pack6.png"class="product-image"
+                onclick="openLightbox(this.src)">
+             <h3>Super Bite</h3>
+            <p>Family Big Size</p>
+            <span class="tit">₦5,000</span>
+    </div>
+  </div>
+</div>
+<div id="lightbox" class="lightbox"
+            onclick="closeLightbox(event)">
+            <span class="close">&times;</span>
+             <img id="lightboxImage" alt="Product Image">
+            </div>
+
+ <section class="hero">
+      <div class="want">
+        <p>Want to place order?</p>
+        <span class="chat">Chat with us on whatsapp </span>
+      </div>
+
+    <div class="floating-cta" id="scrollButtons">
+        <a href="https://wa.me/2349024352168?text=Hello,%20I'd%20like%20to%20make%20an%20order." class="btn whatsapp">WhatsApp Us</a>
+    </div>
+    
+ </section>
+ <script src="snack.js"></script>
+    </body>
+</html>
